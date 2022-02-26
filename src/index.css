@@ -1,0 +1,259 @@
+header{
+    height: 770px;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    margin-top: -10;
+}
+
+header a {
+    padding-top: 33;
+    text-decoration: none;
+    text-align: center;
+}
+
+header hr {
+    margin-top: 35px;
+}
+
+.first {
+    text-align: left;
+}
+
+.last {
+    text-align: end;
+}
+
+h1 {
+    font-size: 47px;
+    line-height: 59px;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.header-center-block {
+    position: relative;
+    top: 80px;
+}
+
+.lang {
+    position: relative;
+    left: 95px;
+    font-size: 16px;
+    transform: rotate(-90deg);
+}
+
+.font-medium {
+    font-family: 'Gilroy';
+    font-weight: 500;
+}
+
+.font-bold {
+    font-family: 'Gilroy';
+    font-weight: bold;
+}
+
+.content {
+    background: #fff;
+}
+
+.content-grey {
+    margin-top: 112px;
+    background: #F6F6F6;
+}
+
+.content-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-menu a {
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+
+}
+
+.main-menu a.active {
+    color: #070707;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 70px;
+
+}
+
+.gray-background {
+    background: #F6F6F6;
+}
+
+.logo-image {
+    position: relative;
+    width: 943.61px;
+    height: 387px;
+    background: url(img/valentin-salja-1058467-unsplash.jpeg) no-repeat center center;
+    background-size: cover;
+    background-position: bottom -580px center;
+}
+
+.about {
+    width: 945px;
+    height: 506px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.skills {
+    width: 945px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.prog {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prog-img {
+    margin-top: 83px;
+}
+
+.prog-img img {
+    width: 90px;
+    height: 90px;
+}
+
+.prog-name {
+    margin-top: 23px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #828282;
+}
+
+.rating .star {
+    width: 30px;
+    height: 30px;
+    background: url(img/star.png);
+    background-size: 30px 30px;
+}
+
+.rating .star-empty {
+    width: 30px;
+    height: 30px;
+    background: url(img/star-empty.png);
+    background-size: 30px 30px;
+}
+
+.portfolio {
+    height: 2253px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.project {
+    height: 700px;
+}
+
+.project-img img {
+    width: 936.24px;
+    height: 510px;
+}
+
+.project-name {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.contacts {
+    width: 945px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.contacts h2 {
+    margin-top: 50px;
+}
+
+.contacts .button {
+    margin-top: 50px;
+    border-radius: 30px;
+    background: #070707;
+    color: #FFFFFF;
+    height: 32px;
+    width: 180px;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+}
+
+.like-me {
+    margin-top: 50px;
+}
+
+.ico {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkedin {
+    background: url(img/linkedin.png);
+    background-size: 40px 40px;
+}
+
+.instagram {
+    background: url(img/instagram.png);
+    background-size: 40px 40px;
+}
+
+.behance {
+    background: url(img/behance.png);
+    background-size: 40px 40px;
+}
+
+.dribble {
+    background: url(img/dribble.png);
+    background-size: 40px 40px;
+}
+
+.like-me-text {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #828282;
+}
